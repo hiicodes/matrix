@@ -1,0 +1,6 @@
+v <- c(1,2,3,4,5,6,7,8,9)
+m <- matrix(v, nrow=3, ncol=3, byrow=TRUE)
+rownames(m) <- c("Row1", "Row2", "Row3")
+colnames(m) <- c("Col1", "Col2", "Col3")
+print("Matrix with row and column names:")
+print(m)
